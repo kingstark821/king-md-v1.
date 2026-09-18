@@ -67,10 +67,10 @@ const config = {
     PREFIX: '.',
     MAX_RETRIES: 3,
     ADMIN_LIST_PATH: './admin.json',
-    AKIRA_IMG: (process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/assets/king-md-logo.jpg` : 'https://i.postimg.cc/4xXj3T8R/file-00000000f890820e9ec3d21792b1cc8b.png'),
+    AKIRA_IMG: 'https://i.ibb.co/Cpsr8XQJ/jawadmd.jpg',
     NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363424779982227@newsletter',
     NEWSLETTER_LIST: process.env.NEWSLETTER_JID ? [process.env.NEWSLETTER_JID] : ['120363424779982227@newsletter'],
-    NEWSLETTER_MESSAGE_ID: process.env.NEWSLETTER_MESSAGE_ID || '544',
+    NEWSLETTER_MESSAGE_ID: process.env.NEWSLETTER_MESSAGE_ID || '546',
     OTP_EXPIRY: 300000,
     OWNER_NUMBER: process.env.OWNER_NUMBER || '',
     CHANNEL_LINK: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VbCY0ob7YSd0Oc9d650O'
@@ -1106,7 +1106,7 @@ function getUptime() {
     return dDisplay + hDisplay + mDisplay + sDisplay;
 }
         
-const ARABIAN_THUMB_G = process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/assets/king-md-logo.jpg` : 'https://i.postimg.cc/4xXj3T8R/file-00000000f890820e9ec3d21792b1cc8b.png';
+const ARABIAN_THUMB_G = 'https://i.ibb.co/Cpsr8XQJ/jawadmd.jpg';
 const arabianCtxGlobal = {
   forwardingScore: 999,
   isForwarded: true,
