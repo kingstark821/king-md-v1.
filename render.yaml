@@ -10,8 +10,6 @@ services:
         value: 20.18.0
       - key: PORT
         value: 8000
-      - key: PUBLIC_URL
-        sync: false
       - key: OWNER_NUMBER
         sync: false
       - key: MONGODB_URI
