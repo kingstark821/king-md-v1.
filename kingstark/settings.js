@@ -54,7 +54,7 @@ module.exports = {
             
             const btnStatus = (sessionConfig?.BUTTON_MODE === 'false') ? "🔴 OFF (Number Reply)" : "🟢 ON (Buttons)";
             
-            const panelText = `*𝗢𝗿𝗶𝗼𝗻-𝗠𝗗 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀*\n\n` +
+            const panelText = `*𝗞𝗜𝗡𝗚-𝗠𝗗-𝗩𝟭 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀*\n\n` +
                               `*1️⃣ 𝗪𝗼𝗿𝗸 𝗠𝗼𝗱𝗲 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀:*\n` +
                               `🔸 Current Mode: *${currentMode.toUpperCase()}*\n` +
                               `  [1] Public | [2] Private | [3] Inbox\n` +
@@ -67,7 +67,7 @@ module.exports = {
                               `  • To change send *.btnmode on* or *.btnmode off*.\n\n` +
                               `> *BY KING STARK*`;
 
-            let displayLogo = process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/assets/king-md-logo.jpg` : 'https://i.postimg.cc/4xXj3T8R/file-00000000f890820e9ec3d21792b1cc8b.png';
+            let displayLogo = 'https://i.ibb.co/Cpsr8XQJ/jawadmd.jpg';
             if (customLogos.length > 0) {
                 displayLogo = customLogos[Math.floor(Math.random() * customLogos.length)];
             }

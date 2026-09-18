@@ -28,7 +28,7 @@ module.exports = {
             
             if (type !== 'imageMessage' && type !== 'videoMessage') {
                 return await socket.sendMessage(sender, { 
-                    text: `❌ *Usage:* Please reply to an *Image* or *Video* (under 10s) and type:\n.${command}\n\n> *𝗦𝗮𝗱𝗲𝘄-𝗠𝗶𝗻𝗶 𝗕𝘆 𝗦𝗮𝗱𝗲𝘄 𝗥𝗮𝘀𝗵𝗺𝗶𝗸𝗮 𝜗𝜚⋆*` 
+                    text: `❌ *Usage:* Please reply to an *Image* or *Video* (under 10s) and type:\n.${command}\n\n> *𝗕𝗬 𝗞𝗜𝗡𝗚 𝗦𝗧𝗔𝗥𝗞 𝜗𝜚⋆*` 
                 }, { quoted: msg });
             }
 
