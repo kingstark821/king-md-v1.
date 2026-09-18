@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: king-md-v1
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: PORT
+        value: 8000
+      - key: PUBLIC_URL
+        sync: false
+      - key: OWNER_NUMBER
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: NEWSLETTER_JID
+        value: 120363424779982227@newsletter
+      - key: CHANNEL_LINK
+        value: https://whatsapp.com/channel/0029VbCY0ob7YSd0Oc9d650O
+      - key: NEWSLETTER_MESSAGE_ID
+        sync: false
+      - key: PM2_NAME
+        value: king-md-v1
